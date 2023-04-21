@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_vehicle_form" model="ir.ui.view">
+        <field name="name">vehicle.form</field>
+        <field name="model">vehicle</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <field name="state" widget="statusbar" options="{'clickable': '1'}"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="sequence"/>
+                        <field name="type" required="True"/>
+                        <field name="domain" required="True"/>
+                        <field name="driver_id" options="{'no_create_edit': True, 'no_create': True}" context="{'filter_by_vehicle': {'id': active_id, 'type': type}}" force_save="1"/>
+                        <field name="active_date"/>
+                        <field name="write_date" string="Update date"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_vehicle_tree" model="ir.ui.view">
+        <field name="name">vehicle.tree</field>
+        <field name="model">vehicle</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence"/>
+                <field name="type"/>
+                <field name="domain"/>
+                <field name="driver_id"/>
+                <field name="state" string="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_vehicle" model="ir.actions.act_window">
+        <field name="name">Vehicle</field>
+        <field name="res_model">vehicle</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_type">form</field>
+        <field name="target">current</field>
+    </record>
+
+</odoo>

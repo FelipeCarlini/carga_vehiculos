@@ -1,0 +1,258 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* carga_vehiculos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-21 12:54+0000\n"
+"PO-Revision-Date: 2023-04-21 12:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: carga_vehiculos
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Maximum number of drivers</span>"
+msgstr "<span class=\"o_form_label\">Número máximo de choferes</span>"
+
+#. module: carga_vehiculos
+#: selection:driver,state:0
+#: selection:vehicle,state:0
+msgid "Active"
+msgstr "Alta"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__active_date
+msgid "Active Date"
+msgstr "Fecha de alta"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__birthday_date
+msgid "Birthday date"
+msgstr "Fecha de nacimiento"
+
+#. module: carga_vehiculos
+#: selection:driver,enabled_type:0
+#: selection:driver,type:0
+#: selection:vehicle,type:0
+msgid "Bus"
+msgstr "Combi"
+
+#. module: carga_vehiculos
+#: model:ir.model,name:carga_vehiculos.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__create_uid
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__create_date
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__display_name
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__domain
+msgid "Domain"
+msgstr "Dominio"
+
+#. module: carga_vehiculos
+#: selection:driver,state:0
+#: selection:vehicle,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__driver_id
+msgid "Driver"
+msgstr "Chofer"
+
+#. module: carga_vehiculos
+#: code:addons/carga_vehiculos/models/driver.py:86
+#, python-format
+msgid "Driver birthday date cant be greater than current date"
+msgstr "La fecha de nacimiento del chofer no puede ser mayor a la fecha actual"
+
+#. module: carga_vehiculos
+#: model:ir.actions.act_window,name:carga_vehiculos.action_driver
+#: model:ir.model,name:carga_vehiculos.model_driver
+#: model:ir.ui.menu,name:carga_vehiculos.driver_menu
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.res_config_settings_view_form
+msgid "Drivers"
+msgstr "Choferes"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__enabled_type
+msgid "Enabled type"
+msgstr "Tipo habilitado"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__id
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__id
+msgid "ID"
+msgstr ""
+
+#. module: carga_vehiculos
+#: selection:driver,state:0
+#: selection:vehicle,state:0
+msgid "Inactive"
+msgstr "Baja"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver____last_update
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__write_uid
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__write_date
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_res_config_settings__max_drivers
+msgid "Maximum number of drivers"
+msgstr "Número máximo de choferes"
+
+#. module: carga_vehiculos
+#: selection:driver,enabled_type:0
+#: selection:driver,type:0
+#: selection:vehicle,type:0
+msgid "Micro"
+msgstr "Micro"
+
+#. module: carga_vehiculos
+#: code:addons/carga_vehiculos/models/vehicle.py:48
+#: code:addons/carga_vehiculos/models/vehicle.py:50
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: carga_vehiculos
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.res_config_settings_view_form
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: carga_vehiculos
+#: selection:driver,enabled_type:0
+#: selection:driver,type:0
+#: selection:vehicle,type:0
+msgid "Sedan"
+msgstr "Sedan"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: carga_vehiculos
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.res_config_settings_view_form
+msgid "Set the maximum number of drivers allowed. If set to 0, there will be no limit on the number of drivers allowed"
+msgstr "Establecer el número máximo de choferes permitidos. Si se establece en 0, no habrá límite en la cantidad de choferes permitidos"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__state
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__state
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.view_driver_tree
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.view_vehicle_tree
+msgid "State"
+msgstr "Estado"
+
+#. module: carga_vehiculos
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.view_driver_tree
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.view_vehicle_tree
+msgid "state"
+msgstr "Estado"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__complete_name
+msgid "Surname and names"
+msgstr "Apellido y nombres"
+
+#. module: carga_vehiculos
+#: code:addons/carga_vehiculos/models/driver.py:96
+#, python-format
+msgid "The maximum number of drivers has been exceeded"
+msgstr "El número máximo de choferes permitido a sido excedido"
+
+#. module: carga_vehiculos
+#: code:addons/carga_vehiculos/models/res_config_settings.py:30
+#, python-format
+msgid "The quantity of max drivers cant be lower than zero"
+msgstr "La cantidad de choferes máximos no puede ser menor a cero"
+
+#. module: carga_vehiculos
+#: code:addons/carga_vehiculos/models/vehicle.py:57
+#, python-format
+msgid "There already exists a vehicle whith this domain"
+msgstr "Ya existe un vehículo con este dominio"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__type
+#: model:ir.model.fields,field_description:carga_vehiculos.field_vehicle__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: carga_vehiculos
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.view_vehicle_form
+msgid "Update date"
+msgstr "Fecha hora de actualización"
+
+#. module: carga_vehiculos
+#: model:ir.model.fields,field_description:carga_vehiculos.field_driver__vat
+msgid "Vat"
+msgstr "DNI"
+
+#. module: carga_vehiculos
+#: model:ir.actions.act_window,name:carga_vehiculos.action_vehicle
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: carga_vehiculos
+#: model:ir.ui.menu,name:carga_vehiculos.vehicle_charge_main_menu
+msgid "Vehicle charge"
+msgstr "Carga de vehículos"
+
+#. module: carga_vehiculos
+#: model_terms:ir.ui.view,arch_db:carga_vehiculos.res_config_settings_view_form
+msgid "Vehicle configuration"
+msgstr "Configuración vehículos"
+
+#. module: carga_vehiculos
+#: model:ir.actions.report,name:carga_vehiculos.report_vehicle
+msgid "Vehicle report"
+msgstr "Reporte de vehículos"
+
+#. module: carga_vehiculos
+#: model:ir.model,name:carga_vehiculos.model_vehicle
+#: model:ir.ui.menu,name:carga_vehiculos.vehicle_menu
+msgid "Vehicles"
+msgstr "Vehículos"
+

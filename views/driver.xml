@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_driver_form" model="ir.ui.view">
+        <field name="name">driver.form</field>
+        <field name="model">driver</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <field name="state" widget="statusbar" options="{'clickable': '1'}"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="complete_name" required="True"/>
+                        <field name="type" required="True"/>
+                        <field name="vat"/>
+                        <field name="birthday_date" required="True"/>
+                        <field name="age"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_driver_tree" model="ir.ui.view">
+        <field name="name">driver.tree</field>
+        <field name="model">driver</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="complete_name"/>
+                <field name="vat"/>
+                <field name="age"/>
+                <field name="state" string="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_driver" model="ir.actions.act_window">
+        <field name="name">Drivers</field>
+        <field name="res_model">driver</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_type">form</field>
+        <field name="target">current</field>
+    </record>
+
+</odoo>
